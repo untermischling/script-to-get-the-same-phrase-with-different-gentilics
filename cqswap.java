@@ -15,7 +15,7 @@ public class cqswap{
 	int TxtLines = 0;
 	int tcLines = 0;
 
-	try(BufferedReader reader = new BufferedReader(new FileReader("countries.txt"))){
+	try(BufferedReader reader = new BufferedReader(new FileReader("denonyms.txt"))){
 
 		//recognize file amount of lines
 		String line;
